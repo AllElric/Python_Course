@@ -1,0 +1,12 @@
+from random import randint
+
+a = randint(1, 100), randint(1, 100), randint(1, 100), randint(1, 100), randint(1, 100) 
+
+print('The values that i drawn are: ', end=' ')
+
+for n in a:
+  print(f' {n} ', end=' ')
+
+print(f'\nThe highest value drawn is {max(a)}')
+
+print(f'The lowest value drawn is {min(a)}')
